@@ -25,6 +25,13 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+
+body {
+    background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
 h1{
     margin-left: 100px;
     margin-right: 100px;
@@ -37,4 +44,41 @@ h1{
     background-image: linear-gradient(skyblue,red);
     font-size: 25px;
     text-shadow: 3px 4px 3px rgba(255,255,255,0.5);
+}
+
+/* blue jordans */
+
+#jordans-1 {
+    border: 2px solid blue;
+}
+
+#jordans-1-desc {
+    border: 3px solid red;
+    background-color: skyblue;
+    width: 60%;
+    
+}
+
+/* red jordans */
+
+#jordans-2 {
+    border: 2px solid red;
+}
+
+#jordans-2-desc {
+    border: 3px solid green;
+    background-color: red;
+    width: 60%;
+}
+
+#row2 {
+    margin-left: 20%;
+    margin-bottom: 31%;
+}
+
+/* both */
+
+#row1, #row2 {
+    display: flex;
+    flex-direction: column;
 }
